@@ -11,7 +11,7 @@ Person.prototype.sum = function() {
 }
 
 function PersonPlus(name, first, second, third) {
-    Person.call(this, name, first, third); // Person 의 this 를 PersonPlus 의 this 로 사용하기 위해
+    Person.call(this, name, first, second); // Person 의 this 를 PersonPlus 의 this 로 사용하기 위해
     this.third = third;
 }
 
